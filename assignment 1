@@ -1,0 +1,536 @@
+1  write an  algorithm  that checks two numbers and print maximum of two numbers
+ n1 and n2 are the number
+if (n1>n2)
+print n1
+else
+print n2
+exit
+-------------------------------------------------------
+2 write an algorithm that checks two numbers and print minimum of two numbers
+n1 and n2 are the number
+if (n1<n2)
+print n1
+else
+print n2
+exit
+--------------------------------------------------
+3 write an algorithm that checks two numbers and print average of two average
+n1 and n2 are the number
+n=n1+n2
+avg=n/2
+print avg
+exit
+---------------------------------------------------------
+4 write a program to 1to 10 using while loopprint 1 to10 using while loop
+public class avgExample1   
+{  
+    public static void main(String args[])  
+    {  
+         int i=1; 
+         while(i<=10){
+             System.out.println(i);
+             i=i+1;
+         }
+         
+    }  
+    }
+    -----------------------------------
+  5  write  a program to print to 10 to 1 using while loop
+  public class avgExample1   
+{  
+    public static void main(String args[])  
+    {  
+         int i=10; 
+         while(1<=i){
+             System.out.println(i);
+             i=i-1;
+         }
+         
+    }  
+    }
+    6 write a program to print 2,4,6,8,10 using for loop and while loop
+    
+public class Example1  ( 
+{  
+    public static void main(String args[])  
+    {  
+         int i=2; 
+         while(10>=i){
+             System.out.println(i);
+             
+             i=i+2;
+         }
+         }
+         }
+         
+         ------------------
+         using for loop
+public class avgExample1   
+{  
+    public static void main(String args[])  
+    {  
+         int i=2; 
+         while(10>=i){
+             System.out.println(i);
+             i=i+2;
+         }
+         
+    }  
+}  
+----------------------------------------------------
+write a program to print 10,8,6,4,2public class avgExample1   
+{  
+    public static void main(String args[])  
+    {  
+         int i=10; 
+         while(1<=i){
+             System.out.println(i);
+             i=i-2;
+         }
+         
+    }  
+}  
+------------
+using for loop
+public class avgExample1   
+{  
+    public static void main(String args[])  
+    {  
+         int i=10; 
+         while(1<=i){
+             System.out.println(i);
+             i=i-2;
+         }
+         
+    }  
+}  
+-----------------------------------------------------------------------
+jan 25
+write a program that checks if a number is a prime number .take the user input .java program to calculate power of a number
+
+import java.util.Scanner;
+
+public class Prime_ {
+	
+
+	public static void main(String[] args) {
+		int temp=0;
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int n=s.nextInt();
+			  for(int i=2; i<=n-1; i++)
+				  if(n%i==0)
+					  temp=temp+1;
+			  if(temp>0)
+			System.out.println("given number is not prime");
+		    else
+			System.out.println("given number is   a prime");
+
+	}
+
+}
+--------------
+power
+import java.util.Scanner;
+
+public class Power {
+
+	public static void main(String[] args) {
+		
+	
+		
+		Scanner s= new Scanner(System.in);
+		System.out.print("enter a number for base : ");
+		int base=s.nextInt();
+		System.out.print("enter a number for exponent : ");
+		int exponent=s.nextInt();
+		int power=1;
+		for(int i=1;i<=exponent;i++)
+			power=base*power;
+		System.out.println("power of given number is :" +power);
+
+		
+
+
+
+
+
+
+---------------------------------------------------------------
+jan 26
+1 use while loop to calculate sum of numbers till n,where n is taken from users
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        
+    
+  
+        Scanner sc=new Scanner(System.in);
+         int n=sc.nextInt() ;  
+         
+        
+    int i=1;
+    
+
+    while(i<=n ){
+         System.out.println(i);  
+i=i+1;
+    }  
+}  
+}
+----------------------------------------------------
+2 use while loop to calculate factorial of number by taking user input
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        
+    
+  
+        Scanner sc=new Scanner(System.in);
+         int n=sc.nextInt() ;  
+    int i=1;
+    int fact=1;
+    while(i<=n)
+    i=i+1;
+    fact=fact*i;
+    {
+         System.out.println(fact);  
+    }  
+}  
+}
+----------------------------------------------------------------------------------------------------------------
+3 write a program to print multiplication table of number entered by users
+package search;
+import java.util.Scanner;
+public class web {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int  num = sc.nextInt();
+		int i=1;
+				while(i<=10) {
+					System.out.println(i*num);
+					i=i+1;
+					}
+				
+				
+				}
+	}
+  ---------------------------------------------------------------------------------------------------------------------------
+  write a program to swap 2 numbers ,where numbers are taken from users
+  import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+
+        
+    
+  
+        Scanner sc=new Scanner(System.in);
+         int n=sc.nextInt();
+         int m=sc.nextInt();
+         int t;
+         
+              t=n;
+    n=m;
+    m=t;
+
+    {
+          System.out.println("After swapping: "+n +"   " + m);  
+         System.out.println();  
+    }  
+}  
+}
+
+----------------------------------------------------------------------------------------
+jan 28
+1 check if a year  leap or not
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+     Scanner sc = new Scanner(System.in);
+      double year = sc.nextInt();
+     
+      if(((year % 4 ==0) && (year % 100 !=0)) || (year % 400==0)){   
+          
+        
+            System.out.println("It is a leap year");  
+         }
+      
+      else{
+
+      System.out.println("It is not leap year");
+      }
+    }
+}
+-------------------------------------------------------------------------------------------
+  sum of even and odd number
+  
+  public class Sum_Odd_Even 
+import java.util.Scanner;
+
+{
+    public static void main(String[] args) 
+    {
+        int n, sumE = 0, sumO = 0;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number of elements in array:");
+n = s.nextInt();
+        int[] a = new int[n];
+        System.out.println("Enter the elements of the array:");
+        for(int i = 0; i < n; i++)
+        {
+            a[i] = s.nextInt();
+        }
+        for(int i = 1; i < n; i++)
+        {
+            if(a[i] % 2 == 0)
+            {
+            {
+                sumE = sumE + a[i];
+            }
+            else
+            {
+                sumO = sumO + a[i];
+            }
+        }
+        System.out.println("Sum of Even Numbers:"+sumE);
+        System.out.println("Sum of Odd Numbers:"+sumO);
+        }
+}
+----------------------------------------------------------------------
+reverse  a number
+import java.util.Scanner;
+public class ReverseNumberExample1   
+{  
+public static void main(String[] args)   
+{  
+    Scanner sc= new Scanner(System.in);
+int number = sc.nextInt();
+int reverse = 0;  
+while(number != 0)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number = number/10;  
+
+}  
+System.out.println("The reverse of the given number is: " + reverse);  
+}  
+}  
+-------------------------------------------------------------------------------------------------------------------
+wap to print first x terms of the series 3N+2which are not multiples of 4
+
+            import java.util.Scanner;
+
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner s = new Scanner(System.in);
+int n = s.nextInt();
+int count = 0;
+
+for(int i=1; count<n;i++)
+{
+int ap = 3*i+2;
+if(ap%4!=0)
+{
+System.out.print(ap+" ");
+count++;
+}
+
+}
+
+}
+
+}
+-----------------------------------------------------------------------------------------
+java program to calculate distance between two numbers
+
+import java.util.Scanner;
+ public class DistanceBwPoint
+{
+	public static void main(String arg[])
+	
+	{
+	
+             	 int x1,x2,y1,y2;
+ 
+	         double dis;
+	
+	         Scanner sc=new Scanner(System.in);
+ 
+	         System.out.println("enter x1 point");
+	   
+                 x1=sc.nextInt();
+	    
+                 System.out.println("enter y1 point");
+	   
+                 y1=sc.nextInt();
+ 
+	         System.out.println("enter x2point");
+	   
+                 x2=sc.nextInt();
+ 
+	         System.out.println("enter y2 point");
+	         
+	     y2=sc.nextInt();
+	  	    
+		 dis=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+ 	 	    	 	    
+  	         System.out.println (dis);
+ 
+	
+--------------------------------------------------------------------------------------
+compond interest
+
+
+import java.util.Scanner;
+
+public class Power_of_number {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.print("enter a number for base : ");
+		int base=sc.nextInt();
+		System.out.print("enter a number for exponent : ");
+		int exponent=sc.nextInt();
+		int power=1;
+		for(int i=1;i<=exponent;i++)
+			power=base*power;
+		System.out.println( +power);
+
+		
+
+	}
+
+}
+
+
+-------------------------------------------------------------------
+
+jan 28 
+
+left triangle
+1 public class LeftTRIANGLE 
+{    
+public static void main(String args[])   
+{    
+int i;
+int j;
+ int row = 6;       
+ 
+for (i=0; i<row; i++)   
+{  
+      
+for (j=2*(row-i); j>=0; j--)         
+{
+System.out.print(" ");   
+}   
+  
+for (j=0; j<=i; j++ )   
+{   
+   
+System.out.print("* ");   
+}   
+
+System.out.println();   
+}   
+}   
+}  
+
+-------------------------------------------------------------------------------------------------------------------------------
+2 pyramid
+public class pyramid 
+{    
+public static void main(String args[])   
+{    
+int i;
+int j;
+ int row = 6;       
+ 
+for (i=0; i<row; i++)   
+{  
+      
+for (j=row-i; j>=1; j--)         
+{
+System.out.print(" ");   
+}   
+  
+for (j=0; j<=i; j++ )   
+{   
+   
+System.out.print("* ");   
+}   
+
+System.out.println();   
+}   
+}   
+}  
+-------------------------------------------------------------------------------------------------------------------------
+3 diamond
+import java.util.Scanner;  
+public class Diamond  
+{  
+public static void main(String args[])  
+{  
+int row, i, j, space = 1;  
+System.out.print("Enter the number of rows : ");  
+Scanner sc = new Scanner(System.in);  
+row = sc.nextInt();  
+space = row - 1;  
+for (j = 1; j<= row; j++)  
+{  
+for (i = 1; i<= space; i++)  
+{  
+System.out.print(" ");  
+}  
+space--;  
+for (i = 1; i <= 2 * j - 1; i++)  
+{  
+System.out.print("*");  
+}  
+System.out.println("");  
+}  
+space = 1;  
+for (j = 1; j<= row - 1; j++)  
+{  
+for (i = 1; i<= space; i++)  
+{  
+System.out.print(" ");  
+}  
+space++;  
+for (i = 1; i<= 2 * (row - j) - 1; i++)  
+{  
+System.out.print("*");  
+}  
+System.out.println("");  
+}  
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+         
+         
+
+
+
+         
+
+
+
+
+
